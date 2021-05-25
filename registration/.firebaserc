@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "university-8d627": {
+      "hosting": {
+        "registration": [
+          "university-8d627"
+        ]
+      }
+    }
+  }
+}
