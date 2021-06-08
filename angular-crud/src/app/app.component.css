@@ -1,0 +1,27 @@
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.list-group-item-action:hover {
+    color: red;
+    /*
+    background-color: rgb(78, 78, 218);*/
+}
+
+
+/*
+.list-group-item-action:active {
+    background: blue;
+
+    background-color: rgb(78, 78, 218);
+}*/
+
+.list-group-item:active {
+    background-color: blue;
+}
+
+.container {
+    padding-left: 255px;
+}

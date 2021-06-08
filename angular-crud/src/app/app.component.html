@@ -1,0 +1,36 @@
+<nav class="navbar navbar-dark bg-primary">
+    <a href="/" class="navbar-brand">Angular Simple Crud</a>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <ul class="list-group mt-4"> &nbsp;
+                <li *ngFor="let employee of employeeArray" class="list-group-item list-group-item-action" (click)="openForEdit(employee)" [class.active]="employee === 'selectedEmlpoyee'">
+
+                    <span class="badge badge-primary">{{employee.id}}</span> &nbsp;{{employee.name}} - {{employee.country}}
+                </li>
+            </ul>
+
+            <div class="card mt-4">
+                <div class="card-body">
+                    <div class="card-title">
+                        Insert a new Employee
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" [(ngModel)]="selectedEmployee.name" placeholder="Insert a Name" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <input type="text" [(ngModel)]="selectedEmployee.country" placeholder="Insert a Country" class="form-control">
+                    </div>
+                    <button (click)="addOrEdit()" class="btn btn-primary">Submit</button> &nbsp;
+                    <button *ngIf="selectedEmployee.id !== 0" class="btn btn-danger" (click)="Delete()">Delete</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
