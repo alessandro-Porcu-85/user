@@ -8,14 +8,8 @@
 }
 
 .d-flex {
-    margin-left: 150px;
+    margin-left: 260px;
     margin-top: 10px;
-}
-
-.form-control {
-    height: 30px;
-    margin-top: 0px;
-    font-size: 15px;
 }
 
 .btn {
@@ -31,7 +25,11 @@
 
 .navbar-brand {
     font-size: 30px;
-    margin-top: -9px;
+    margin-top: -3px;
+}
+
+.navbar-brand:hover {
+    color: white;
 }
 
 
@@ -39,8 +37,30 @@
 
 .nav-item1 {
     font-size: 18px;
-    margin-left: 75px;
+    margin-left: 20px;
     margin-top: -3px;
+}
+
+.nav-item-0 {
+    font-size: 14px;
+    margin-top: 0px;
+    margin-left: 250px;
+    margin-right: -210px;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link {
+    /*color: red;*/
+    letter-spacing: .2rem;
+}
+
+.navbar {
+    background-color: black;
+    /*3px 3px 6px 1px;*/
+    /*box-shadow: 3px 3px 6px 1px #292929;*/
 }
 
 

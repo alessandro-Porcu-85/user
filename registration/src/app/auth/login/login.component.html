@@ -1,4 +1,24 @@
-<br/>
-<br/>
+<div class="container-fluid ">
+    <div class="col-md-6 mx-auto mt-5">
+        <div class="card">
+            <div class="card-body">
+                <h2 class="text-center">LOGIN</h2>
+                <hr>
+                <form [formGroup]="loginForm" (ngSubmit)="onLogin()">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" formControlName="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" formControlName="password" placeholder="Enter your password">
+                    </div>
+                    <button type="submit" class="btn btn-dark btn-lg btn-block mt-4">Login</button>
+                </form>
+                <div class="form-group text-center mt-2">
+                    <p>Create an account:&nbsp;<a routerLink="/register">Register</a></p>
+                </div>
+            </div>
+        </div>
 
-<h1>Hola Jesus is Login</h1>
+    </div>

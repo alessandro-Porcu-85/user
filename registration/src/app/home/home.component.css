@@ -1,5 +1,6 @@
 .jumbotron {
-    background-image: url('/src/assets/Background/start-up.jpg');
+    background-image: url('src/assets/Background/arch.jpg');
+    /*background-color: black;*/
     color: white;
     margin-top: 0px;
     padding-top: 30px;
@@ -9,7 +10,7 @@
 }
 
 .display-4 {
-    font-size: 90px;
+    font-size: 120px;
     font-weight: bold;
 }
 
@@ -44,6 +45,13 @@ button.btn:hover {
     font-size: 35px;
     font-family: Oswald;
     letter-spacing: .1rem;
+}
+
+.jum-cont {
+    box-shadow: 3px 3px 6px 1px #292929;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 35px;
+    height: 160px;
 }
 
 
