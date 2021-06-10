@@ -44,7 +44,7 @@
 .nav-item-0 {
     font-size: 14px;
     margin-top: 0px;
-    margin-left: 250px;
+    margin-left: 240px;
     margin-right: -210px;
 }
 
@@ -61,6 +61,13 @@
     background-color: black;
     /*3px 3px 6px 1px;*/
     /*box-shadow: 3px 3px 6px 1px #292929;*/
+}
+
+
+/*LOGO*/
+
+a.navbar-brand {
+    font-size: 28px;
 }
 
 
